@@ -12,6 +12,10 @@ async function bootstrap() {
     new ValidationPipe({
       whitelist: true, //?  Remueve todo lo que no está incluído en los DTOs
       forbidNonWhitelisted: true, //? Retorna bad request si hay propiedades en el objeto no requeridas
+      transform: true,
+      transformOptions: {
+        enableImplicitConversion: true,
+      },
     }),
   );
 

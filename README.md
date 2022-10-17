@@ -26,6 +26,7 @@ $ docker-compose up -d
 ```
 3. Configurar las variables de entorno en .env (utiliza .env.example como plantilla).
 
+
 ## Corriendo la app
 
 ```bash
@@ -38,3 +39,4 @@ $ yarn run start:dev
 # production mode
 $ yarn run start:prod
 ```
+>**Nota:** En modo desarrollo puedes ejecutar el endpoint http://localhost:3000/api/v2/seed para reconstruir la base de datos.
