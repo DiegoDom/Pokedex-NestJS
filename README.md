@@ -24,8 +24,17 @@ $ npm i -g @nestjs/cli
 ```bash
 $ docker-compose up -d
 ```
-3. Configurar las variables de entorno en .env (utiliza .env.example como plantilla).
+3. Configurar las variables de entorno en ```.env``` (utiliza ```.env.example``` como plantilla).
+```bash
+# puerto donde corre la app
+PORT=3000
 
+# cadena de conexion MongoDB
+MONGODB_CNN=mongodb://localhost:27017/nest-pokemon
+
+# limite de registros en consulta de pokemons
+DEFAULT_LIMIT=10
+```
 
 ## Corriendo la app
 
