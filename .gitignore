@@ -39,3 +39,5 @@ mongo/
 
 #Enviroment
 .env
+
+yarn.lock
